@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Chore Goblin</string>
+    <string name="menu_name">Chore Goblin</string>
+    <string name="menu_item_chores">Chores</string>
+    <string name="menu_item_my_goblin">My Goblin</string>
+    <string name="menu_item_history">History</string>
+    <string name="menu_item_cave">Goblin Cave</string>
+    <string name="menu_item_settings">Settings</string>
+
+
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_main">basic menu</string>
+    <string name="title_activity_chores_list">Chores</string>
+    <string name="title_activity_goblin_cave">Goblins</string>
+
+
+    <string name="toolbar_action_menu">Menu</string>
+    <string name="ChoreAddButton">Add Chore</string>
+    <string name="choose_login_goblin">Choose your Goblin</string>
+
+    <!-- Add Chore Strings-->
+    <string name="default_add_chore_title">Take out the trash</string>
+    <string name="add_chore_title_title">Enter the name of the chore</string>
+
+    <string name="default_add_chore_effort_value">5</string>
+    <string name="add_chore_effort_value_title">Enter the effort value of the chore</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+</resources>

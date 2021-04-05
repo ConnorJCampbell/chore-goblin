@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.choregoblin">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/gb_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/gb_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".Activities.AddGoblinActivity"
+            android:label="Summon Goblin"
+            android:parentActivityName=".Activities.BaseActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.choregoblin.Activities.BaseActivity" />
+        </activity>
+        <activity
+            android:name=".Activities.NewHouseActivity"
+            android:label="Create Lair"
+            android:parentActivityName=".Activities.BaseActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.choregoblin.Activities.BaseActivity" />
+        </activity>
+        <activity
+            android:name=".Activities.ChooseLoginGoblinActivity"
+            android:label="@string/choose_login_goblin"
+            android:parentActivityName=".Activities.BaseActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.choregoblin.Activities.BaseActivity" />
+        </activity>
+        <activity
+            android:name=".Activities.HouseLoginActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.GoblinCaveActivity"
+            android:label="@string/title_activity_goblin_cave"
+            android:parentActivityName=".Activities.BaseActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.choregoblin.Activities.BaseActivity" />
+
+        </activity>
+        <activity
+            android:name=".Activities.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".Activities.BaseActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.choregoblin.Activities.BaseActivity" />
+        </activity>
+        <activity
+            android:name=".Activities.IndividualChoreActivity"
+            android:label=""
+            android:parentActivityName=".Activities.BaseActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.choregoblin.Activities.ChoreListActivity" />
+        </activity>
+        <activity
+            android:name=".Activities.AddChoreActivity"
+            android:label=""
+            android:parentActivityName=".Activities.BaseActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.choregoblin.Activities.ChoreListActivity" />
+        </activity>
+        <activity
+            android:name=".Activities.ChoreListActivity"
+            android:label="@string/title_activity_chores_list"
+            android:parentActivityName=".Activities.BaseActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.choregoblin.Activities.BaseActivity" />
+
+        </activity>
+        <activity
+            android:label=""
+            android:name=".Activities.BaseActivity">
+
+
+        </activity>
+
+    </application>
+
+</manifest>
